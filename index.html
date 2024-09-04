@@ -7,6 +7,25 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="heart"></div>
+    <div class="heart" onclick="redirectToTextPage()"></div>
+
+    <audio class="background-music" src="our_song.mp3" loop></audio>
+
+    <script>
+        var audio = document.querySelector('.background-music');
+        var heart = document.querySelector('.heart');
+
+        heart.addEventListener('mouseover', function() {
+            audio.play();
+        });
+
+        heart.addEventListener('mouseout', function() {
+            audio.pause();
+        });
+        
+        function redirectToTextPage() {
+            window.location.href = "somethingtosay.html";
+        }
+    </script>
 </body>
 </html>
