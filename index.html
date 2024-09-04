@@ -9,6 +9,8 @@
 <body>
     <div class="heart" onclick="redirectToTextPage()"></div>
 
+    <div class="click-me" onclick="removeDiv()">Click me then mouse over my heart ^.^</div>
+
     <audio class="background-music" src="our_song.mp3" loop></audio>
 
     <script>
@@ -25,6 +27,11 @@
         
         function redirectToTextPage() {
             window.location.href = "somethingtosay.html";
+        }
+
+        function removeDiv() {
+            var clickMeDiv = document.querySelector('.click-me');
+            clickMeDiv.style.display = 'none';
         }
     </script>
 </body>
