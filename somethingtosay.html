@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Big Day, Big Deal</title>
+    <link rel="stylesheet" href="styles/letter.css"/>
 </head>
 <body>
-    
+    <div class="textCont"></div>
+
+    <footer>
+        <a href="#" target="_blank" alt="">09/09/2024</a>
+    </footer>
+    <script src="letter.js"></script>
+    <script>
+        var pause = document.querySelector(".pause");
+        var audio = document.querySelector(".audio");
+
+        function togglePlay() {
+            if (audio.paused) {
+                audio.play();
+                pause.innerHTML="Pause";
+            } else {
+                audio.pause();
+                pause.innerHTML="Play";
+                pause.style.color = "#848484";
+            }
+        }
+    </script>
+
 </body>
 </html>
