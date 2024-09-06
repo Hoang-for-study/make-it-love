@@ -8,7 +8,7 @@ let counter = 0;
 
 
 $btnYes.addEventListener('mouseover', (e) => {
-    e.target.innerHTML = 'Con cặc'
+    e.target.innerHTML = '^.^'
 })
 
 $btnYes.addEventListener('mouseout', (e) => {
@@ -26,7 +26,7 @@ $btnNo.addEventListener('mouseover', (e) => {
     $target.style.right = `${Math.random() * 200}px`;
 
     if (counter >= 5) {
-        $target.innerHTML = 'Đừng đuổi em'
+        $target.innerHTML = 'T.T'
     }
 
     counter += 1;

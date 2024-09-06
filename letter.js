@@ -7,7 +7,7 @@ const text =
 +
 "Like a patient with borderline personality disorder, when I found out that you've liked me since then, to put it simply, that you've been waiting for me for 3 years, in a short 30 seconds my body must have gone through all kinds of emotions, starting from shock, then joy, then calmness, then anger because why didn't I know this, then sadness and ending with happiness."
 +
-"And from then on I was like reliving in the pink of love...";
+"And from then on I was like reliving in the pink of love...Click on the date";
 
 
 const paragraph = text.split("");
