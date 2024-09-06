@@ -1,5 +1,5 @@
 const text =
-"Hi Vy, Hoàng đã suy nghĩ rất lâu trước khi viết những dòng này và cũng không thể ngờ là sẽ có ngày hôm nay nhưng t hy vọng m có thể dành chút thời gian để lắng nghe."
+"Hi, Hoàng đã suy nghĩ rất lâu trước khi viết những dòng này và cũng không thể ngờ là sẽ có ngày hôm nay nhưng Hoàng hy vọng Vy có thể dành chút thời gian để lắng nghe ^.^"
 +
 "Actually, this is the first time in my life I've written a love letter like this so I'm still not used to its overly emotional nature so I'll ask permission to use English. "
 +

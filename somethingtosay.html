@@ -10,24 +10,13 @@
     <div class="textCont"></div>
 
     <footer>
-        <a href="#" target="_blank" alt="">09/09/2024</a>
+        <a href="#" target="_blank" onclick="redirectToExpressPage()" alt="">09/09/2024</a>
     </footer>
     <script src="letter.js"></script>
     <script>
-        var pause = document.querySelector(".pause");
-        var audio = document.querySelector(".audio");
-
-        function togglePlay() {
-            if (audio.paused) {
-                audio.play();
-                pause.innerHTML="Pause";
-            } else {
-                audio.pause();
-                pause.innerHTML="Play";
-                pause.style.color = "#848484";
-            }
+        function redirectToExpressPage() {
+            window.location.href = "expressfeeling.html";
         }
     </script>
-
 </body>
 </html>
