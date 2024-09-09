@@ -37,6 +37,14 @@
         heart.addEventListener('mouseout', function() {
             audio.pause();
         });
+
+        heart.addEventListener('touchstart', function() {
+            audio.play();
+        });
+
+        heart.addEventListener('touchend', function() {
+            audio.pause();
+        });
         
         function redirectToTextPage() {
             window.location.href = "somethingtosay.html";

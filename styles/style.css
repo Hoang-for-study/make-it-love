@@ -66,3 +66,43 @@ body {
     border-radius: 5px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+@media screen and (max-width: 768px) {
+    .heart {
+        height: 50px;
+        width: 50px;
+    }
+
+    .heart::before,
+    .heart::after {
+        height: 50px;
+        width: 50px;
+    }
+
+    .click-me {
+        bottom: 10px;
+        right: 10px;
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .heart {
+        height: 40px;
+        width: 40px;
+    }
+
+    .heart::before,
+    .heart::after {
+        height: 40px;
+        width: 40px;
+    }
+
+    .click-me {
+        bottom: 5px;
+        right: 5px;
+        font-size: 11px;
+        padding: 6px 12px;
+    }
+}
